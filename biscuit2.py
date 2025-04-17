@@ -193,7 +193,7 @@ if __name__ == "__main__":
     analyzer = BiscuitQualityAnalyzer()
     
     # Option 1: Calibrate with a sample image
-    analyzer.calibrate(cv2.imread("test_images\\Biscuit5.png"))
+    #analyzer.calibrate(cv2.imread("test_images\\Biscuit5.png"))
     
     #Option 2: Test with individual images
     analyzer.run_test("test_images\\Biscuit5.png")

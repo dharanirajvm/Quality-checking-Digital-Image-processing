@@ -144,7 +144,7 @@ if __name__ == "__main__":
     analyzer = BottleQualityAnalyzer()
 
     # Use generated image
-    image_path = "test_bottle\\bottle 8.png"
+    image_path = "test_bottle\\bottle6.jpg"
     img = cv2.imread(image_path)
 
     processed_img, results = analyzer.process_frame(img)
